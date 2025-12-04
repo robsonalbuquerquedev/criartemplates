@@ -1,7 +1,10 @@
 import Coordenador from "@/components/anunciar/Coordenador";
+import MainLayout from "@/components/layout/MainLayout";
 
-export default function AnunciarCoordenadorPage () {
+export default function AnunciarCoordenadorPage() {
     return (
-        <Coordenador />   
+        <MainLayout>
+            <Coordenador />
+        </MainLayout>
     )
 }
